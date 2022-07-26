@@ -1,0 +1,121 @@
+@import url(https://fonts.google.com/specimen/League+Spartan );
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='rgb(224  232  255)' fill-opacity='1' d='M0 288L80 250.7C160 213 320 139 480 133.3C640 128 800 192 960 213.3C1120 235 1280 213 1360 202.7L1440 192L1440 0L1360 0C1280 0 1120 0 960 0C800 0 640 0 480 0C320 0 160 0 80 0L0 0Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-color: #F0F8FF;
+    background-size: cover;
+}
+section{
+    width: 305px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #DCDCDC;
+    background-color: #FFFFFF;
+    background-size: 100px 100px;
+    box-shadow: 0px 0px 30px -1px #D3D3D3;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+#imgun{
+    border-radius: 10px 10px 0px 0px;
+    width: 305px;
+}
+h1{
+    font-family: 'League Spartan';
+    font-size: 122%;
+    color: #303030;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+#withh1{
+    font-family: 'League Spartan';
+    font-size: 90%;
+    color: #696969;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+#payement{
+    width: 244px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #EFEEEE;
+    margin: auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#imgdeux{
+    margin: 8px;
+    width: 37px;
+    height: 37px;
+    text-align: left;
+}
+h2{
+    margin: 0px 0px 7px;
+    font-size: 16px;
+    font-family: 'League Spartan';
+}
+p{
+    font-family: 'League Spartan';
+    font-size: 10px;
+}
+#annuel{
+    color: #303030;
+}
+#argent{
+    font-size: 15px;
+    color: #696969;
+}
+#change{
+    font-size: 13px;  
+    color: #2109BC;
+    text-align: right;
+    font-family:'League Spartan';
+    margin-right: 10px;
+}
+div{
+    margin-right: 64px;
+}
+#proceed{
+    width: 240px;
+    height: 37px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #2109BC;
+    background-color: #2109BC;
+    box-shadow: 2px 2px 25px -10px #696969;
+    margin: 25px 0px 15px 30px;
+    color: #EFEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cancel{
+    width: 240px;
+    height: 37px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #FAF6F6;
+    background-color: #FAF6F6;
+    margin: 20px 0px 15px 30px;
+    color: #696969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
